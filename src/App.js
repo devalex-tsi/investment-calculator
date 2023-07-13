@@ -43,7 +43,7 @@ function App() {
                     data={yearlyData}
                     initialInvestment={userInput['current-savings']}/>
             ) : (
-                <p>Fill the form with your data</p>
+                <p style={{textAlign: 'center'}}>Fill the form with your data</p>
             )}
 
         </div>

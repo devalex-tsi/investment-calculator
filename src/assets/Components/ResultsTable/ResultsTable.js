@@ -1,8 +1,9 @@
 import ResultsTableBody from "./ResultsTableBody";
+import classes from './ResultTable.module.css'
 
 const ResultsTable = props => {
     return (
-        <table className="result">
+        <table className={classes.result}>
             <thead>
             <tr>
                 <th>Year</th>
